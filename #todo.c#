@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include "todo.h"
+#include <string.h>
+
+int todo(){
+  const int MAX_SIZE = 30;
+  char input[MAX_SIZE];
+    
+  printf("Enter a task: ");
+  fgets(input, MAX_SIZE, stdin);
+  
+   
+ 
+  return 0;
+}

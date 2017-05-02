@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "todo.h"
+#include <string.h>
+
+int todo(){
+  const int MAX_SIZE = 30;
+  char name[MAX_SIZE];
+  char name_mod[MAX_SIZE];
+  int size_name;
+  
+  printf("Enter a name: ");
+  
+  fgets(name, MAX_SIZE, stdin);
+  sscanf(name,"%s",name_mod);
+  size_name = strlen(name_mod);
+  
+  printf("\nSize of name is %d", name);
+
+  return 0;
+}

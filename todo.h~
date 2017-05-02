@@ -1,0 +1,11 @@
+#ifndef TODO_H
+#define TODO_H
+
+
+int todo(void);
+
+int string_trim(char * str){
+
+}
+
+#endif //TODO_H
